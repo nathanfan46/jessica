@@ -23,37 +23,37 @@ theme = "mero"
     weight = 200
 
   [[menu.main]]
-    identifier = "mygoals"
-    name = "My Goals"
-    title = "mygoals"
-    url = "/mygoals/first"
+    identifier = "Development Goals"
+    name = "Development Goals"
+    title = "Development Goals"
+    url = "/developmentgoals/onpersonaldevelopment"
     weight = 300    
 
   [[menu.main]]
-    identifier = "Reflections"
-    name = "Reflections"
-    title = "Reflections"
+    identifier = "Assessments& Reflections"
+    name = "Assessments& Reflectionss"
+    title = "Assessments& Reflections"
     url = "/reflections/first"
     weight = 400 
 
 [params.introduction]
-   text = "**This website** is my blog. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+   text = "**Who am I ?** 8+ years of solid digital media experience. Hands-on ability in digital marketing and CRM. Willing to take new challenges and being a pioneer to take new tasks or building a new team. Good team player, accountable, capable of multi-tasking with strong business sense, strategic thinking and driving power. Work , play and give: practiced stage performing, actively matching demand and supply for charity affairs" 
 
 [params.social]
   [[params.social.list]]
   class = "fab"
   icon = "fa-linkedin-in"
-  url = "#"
+  url = "https://www.linkedin.com/in/jessica-chen-8a5290161/"
 
   [[params.social.list]]
   class = "fab"
   icon = "fa-facebook"
-  url = "#"
+  url = "https://www.facebook.com/sweetlan.tw"
 
   [[params.social.list]]
   class = "fab"
   icon = "fa-instagram"
-  url = "#"
+  url = "https://www.instagram.com/sweetlan.tw/?hl=zh-tw"
 
  
 [params.footer]
