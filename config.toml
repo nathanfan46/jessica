@@ -1,0 +1,60 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Jessica Chen"
+theme = "mero"
+
+[params]
+  author = "Jessica Chen"
+  description = "My awesome blog"
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    title = "home"
+    url = "/"
+    weight = 100
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    title = "posts"
+    url = "/posts/category"
+    weight = 200
+
+  [[menu.main]]
+    identifier = "mygoals"
+    name = "My Goals"
+    title = "mygoals"
+    url = "/mygoals/first"
+    weight = 300    
+
+  [[menu.main]]
+    identifier = "Reflections"
+    name = "Reflections"
+    title = "Reflections"
+    url = "/reflections/first"
+    weight = 400 
+
+[params.introduction]
+   text = "**This website** is my blog. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+
+[params.social]
+  [[params.social.list]]
+  class = "fab"
+  icon = "fa-linkedin-in"
+  url = "#"
+
+  [[params.social.list]]
+  class = "fab"
+  icon = "fa-facebook"
+  url = "#"
+
+  [[params.social.list]]
+  class = "fab"
+  icon = "fa-instagram"
+  url = "#"
+
+ 
+[params.footer]
+  message = "&copy; 2019 Jessica"
